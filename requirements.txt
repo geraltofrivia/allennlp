@@ -9,7 +9,7 @@
 # please visit http://pytorch.org/ and install the relevant version.
 # For now AllenNLP works with both PyTorch 1.0 and 0.4.1. Expect that in
 # the future only >=1.0 will be supported.
-torch==1.1.0
+torch
 
 # Parameter parsing (but not on Windows).
 jsonnet==0.10.0 ; sys.platform != 'win32'
@@ -72,7 +72,7 @@ pytorch-pretrained-bert==0.4.0
 #### ESSENTIAL LIBRARIES USED IN SCRIPTS ####
 
 # Plot graphs for learning rate finder
-matplotlib==2.2.3
+matplotlib
 
 # Used for downloading datasets over HTTP
 requests>=2.18
